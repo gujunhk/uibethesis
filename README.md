@@ -5,3 +5,11 @@ This is an unofficial template for undergrad graduation thesis of University of 
 ## License
 
 This repo is proprietary at the moment. For those who want to see it released under an open source license, thank you for your patience.
+
+## How to Run
+
+```bash
+xelatex uibethesis
+biber uibethesis
+xelatex uibethesis
+```

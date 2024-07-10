@@ -55,19 +55,19 @@
 \usepackage{titlesec}
 \usepackage{titletoc}
 \ctexset{
-	contentsname = {\zihao{-3}目\quad 录},
-	abstractname = {\bfseries\zihao{-3} 摘要\vspace{0.5cm}},
+	contentsname = {\zihao{-3} \htjc 目\quad 录},
+	abstractname = {\bfseries\zihao{-3} \htjc 摘要\vspace{0.5cm}},
 	section = {name = {,、},number = \chinese{section}},
-	subsection = {name = {（,）},indent=2em, number=\chinese{subsection}}
+	subsection = {name = {（,）},indent=2em, number=\chinese{subsection}},
 }
 \usepackage{titletoc}
 \titleformat{\section}
-{\zihao{-3}\bfseries\centering}
+{\zihao{-3}\bfseries\htjc\centering}
 {\thesection、}
 {0pt}
 {}
 \titleformat{\subsection}
-{\zihao{-4}\bfseries}
+{\zihao{-4}\bfseries\htjc}
 {\hspace{1.5em}（\thesubsection）}
 {0pt}
 {}
@@ -88,9 +88,10 @@
 
 \setCJKfamilyfont{stj}{宋体-简 黑体}             
 \newcommand{\stjc}{\CJKfamily{stj}}
-\setCJKfamilyfont{zhsong}[AutoFakeBold=3]{华文宋体}
+\setCJKfamilyfont{zhsong}[AutoFakeBold=3]{STSong}
 \newcommand{\stxjc}{\CJKfamily{zhsong}}
-
+\setCJKfamilyfont{htj}{黑体-简}
+\newcommand{\htjc}{\CJKfamily{htj}}
 
 \setromanfont[Mapping=tex-text]{Times New Roman}
 \setsansfont[Scale=MatchLowercase,Mapping=tex-text]{Gill Sans}
@@ -99,7 +100,7 @@
 \usepackage{indentfirst}
 \setlength{\parindent}{2em}
 
-\title{\textbf	{韩南地区旅游营销策略研究}}
+\title{\textbf	{\htjc 韩南地区旅游营销策略研究}}
 \author{张同文}
 \date{}
 
@@ -112,7 +113,7 @@
 
 \vspace{1em}
 
-\includegraphics[scale=.2]{xiaohui.eps}
+\includegraphics[scale=.2]{xiaohui.pdf}
 \hspace{0.3cm}
 \begin{tabular}{c}
 \zihao{1}{\textcolor{title}{\stjc 对外经济贸易大学}}
@@ -124,11 +125,11 @@
 \end{tabular}
 \hspace{0cm}
 
-\zihao{-0} \textbf{毕业论文}
+\zihao{-0} \textbf{\htjc 毕业论文}
 
 \vspace{2cm}
 
-\zihao{2} \textbf{韩南地区旅游营销策略研究}
+\zihao{2} \textbf{\htjc 韩南地区旅游营销策略研究}
 
 \vspace{2.8cm}
 
@@ -153,7 +154,7 @@ No. \_\_\_\_\_\_\_\_\_\_\_\_
 
 \vspace{1em}
 
-\includegraphics[scale=.2]{xiaohui.eps}
+\includegraphics[scale=.2]{xiaohui.pdf}
 \hspace{0.3cm}
 \begin{tabular}{c}
 \zihao{1}{\textcolor{title}{\stjc 对外经济贸易大学}}
@@ -231,7 +232,7 @@ Keyword: Hannan\quad Hot Spring Tourist\quad Marketing Strategy
 \subsection{插图}
 \begin{figure}[H]
 \begin{center}
-\includegraphics[width=4in]{egpic.eps}
+\includegraphics[width=4in]{egpic.pdf}
 \caption{图的名字}
 \end{center}
 本图来源：国家信息中心报告，《2005-2006年汽车市场分析与预测》，第24页。
@@ -318,7 +319,7 @@ R$^{2}$ & 0.0003 & 0.0009 & 0.0009  & 0.0002 & 0.0012 & 0.0015  \\
 \addcontentsline{toc}{section}{参考文献}
 \section*{参考文献}
 \titleformat{\section}
-{\zihao{-4}\bfseries}
+{\zihao{-4}\bfseries\htjc}
 {\thesubsection}
 {0pt}
 {}
@@ -332,7 +333,7 @@ R$^{2}$ & 0.0003 & 0.0009 & 0.0009  & 0.0002 & 0.0012 & 0.0015  \\
 \newpage
 \begin{appendix}
 \titleformat{\section}
-{\zihao{-3}\bfseries}
+{\zihao{-3}\bfseries\htjc}
 {\thesubsection}
 {0pt}
 {}
@@ -340,7 +341,7 @@ R$^{2}$ & 0.0003 & 0.0009 & 0.0009  & 0.0002 & 0.0012 & 0.0015  \\
 \addcontentsline{toc}{section}{附录\ \ \ \ 外文文献译文两篇}
 \begin{center}
 \vspace{3ex}
-\zihao{-3}\textbf{译文一}\ \ \ \ \textbf{测算全球价值链参与度和全球经济周期}\\
+\zihao{-3}\textbf{\htjc 译文一}\ \ \ \ \textbf{\htjc 测算全球价值链参与度和全球经济周期}\\
 \vspace{1.5ex}
 Zhi Wang\\
 Shang-Jin Wei\\
@@ -382,7 +383,7 @@ where $B = (I-A)^{-1}$is the well-known (global) Leontief inverse matrix.
 \newpage
 \begin{center}
 \vspace{3ex}
-\zihao{-3}\textbf{译文二}\quad\textbf{全球价值链中的潜在和实际FDI溢出效应 - 外国投资者特征，吸收能力和传导渠道的作用}\\
+\zihao{-3}\textbf{\htjc 译文二}\quad\textbf{\htjc 全球价值链中的潜在和实际FDI溢出效应 - 外国投资者特征，吸收能力和传导渠道的作用}\\
 \vspace{1.5ex}
 Deborah Winkler\\
 \vspace{1.5ex}
@@ -405,7 +406,7 @@ Deborah Winkler\\
 \newpage
 \addcontentsline{toc}{subsection}{}
 \titleformat{\section}
-{\zihao{-3}\bfseries\centering}
+{\zihao{-3}\bfseries\htjc\centering}
 {\thesection、}
 {0pt}
 {}
